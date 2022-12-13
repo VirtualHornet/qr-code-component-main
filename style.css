@@ -1,0 +1,61 @@
+/*
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/
+@import url(https://fonts.google.com/specimen/Outfit);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    background-color:  hsl(212, 45%, 89%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem auto 2rem;
+    padding: 1rem 1rem 1.5rem;
+    width: 20%;
+    background: hsl(0, 0%, 100%) ;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
